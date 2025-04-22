@@ -1,0 +1,17 @@
+{
+  "name": "cypress-iudigital",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "Prueba-edge": "cypress run --spec cypress/e2e/smoketestbanco.cy.js --browser edge",
+    "Prueba-chrome": "cypress run --spec cypress/e2e/smoketestbanco.cy.js --browser chrome",
+    "Prueba-firefox": "cypress run --spec cypress/e2e/smoketestbanco.cy.js --browser firefox"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.3.0"
+  }
+}
