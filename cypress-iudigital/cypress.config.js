@@ -1,15 +1,18 @@
+const { defineConfig } = require("cypress");
 
-
-import { defineConfig } from 'cypress';
-
-export default defineConfig({
+module.exports = defineConfig({
   e2e: {
-    baseUrl: 'https://www.iudigital.edu.co',
     setupNodeEvents(on, config) {
-      // Aquí puedes poner tasks personalizados si los necesitas
+      // implement node event listeners here
+      require("cypress-mochawesome-reporter/plugin")(on);
+      return config;
+    },
+    reporter: "cypress-mochawesome-reporter",
+    reporterOptions: {
+      reportDir: "cypress/report",
+      charts: true,
+      embeddedScreenshots: true,
+      inlineAssets: true,
     },
   },
-  viewportWidth: 1280,
-  viewportHeight: 720,
 });
-

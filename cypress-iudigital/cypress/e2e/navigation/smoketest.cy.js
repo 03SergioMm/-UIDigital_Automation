@@ -7,11 +7,12 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 describe('smoketest', () => {
     beforeEach(() => {
         cy.viewport(1920, 1080);
-        cy.visit('https://www.iudigital.edu.co/index.php');
+        cy.visit('https://www.iudigital.edu.co');
       });
     
     it('Navigation Open', () => {
         cy.get('#menu-principal').should('be.visible');
+        
     });
         
 
