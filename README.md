@@ -7,7 +7,6 @@ Este proyecto tiene como objetivo asegurar la calidad del sitio web de [IUDigita
 - Validar la funcionalidad del sitio.
 - Asegurar usabilidad y accesibilidad.
 - Verificar compatibilidad en diferentes navegadores y dispositivos.
-- Evaluar el rendimiento del sitio.
 - Identificar y corregir errores antes del paso a producción.
 
 ## 📌 Alcance
@@ -31,10 +30,10 @@ Este proyecto tiene como objetivo asegurar la calidad del sitio web de [IUDigita
 ### Idiomas disponibles:
 - Español
 - Inglés
+- La prueba de cambio de idioma no puede automatizarse debido a restricciones de políticas de seguridad cross-origin.”
 
 ### Dispositivos:
 - Escritorio
-- Tablet
 - Móvil
 
 ### Navegadores soportados:
@@ -48,8 +47,6 @@ Este proyecto tiene como objetivo asegurar la calidad del sitio web de [IUDigita
 - Pruebas funcionales
 - Pruebas de usabilidad
 - Pruebas de compatibilidad
-- Pruebas de rendimiento
-- Pruebas de seguridad
 - Pruebas de accesibilidad
 
 ## 🤖 Herramientas de Automatización
